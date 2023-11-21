@@ -1,0 +1,12 @@
+
+
+
+<launch>
+
+<node name=" turtlesim " pkg=" /turtlesim" type= "turtlesim_node" />
+
+
+<node name=" task 2 " pkg=" topic_subscriber_pkg" type="pose_topic_subscriber" />
+ 
+ 
+ </launch>
